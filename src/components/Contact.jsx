@@ -10,7 +10,7 @@ const Contact = () => {
                     <a href="https://instagram.com/12_editor__" target='__blank'>12_editor__</a>
                 </div>
                 <div className="text-black text-sm flex items-end gap-2">
-                    <FaPhoneAlt size={18} />
+                    <FaPhoneAlt size={18} className='-mr-1' />
                     <a href="tel:+919896645273" target='__blank'>+9198966-45273</a>
                 </div>
             </div>

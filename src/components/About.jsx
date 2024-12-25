@@ -26,7 +26,7 @@ const About = () => {
     },
     {
       duration: '28 DAYS',
-      company: 'Star Sports',
+      company: 'STAR SPORTS',
       role: 'VIDEO EDITOR / LIVE',
       description: 'Worked with Star Sports during the Legends League Cricket (LLC) tournament on a 28-day contract. Edited match highlights, promotional content, and player interviews to enhance audience engagement.'
     }
