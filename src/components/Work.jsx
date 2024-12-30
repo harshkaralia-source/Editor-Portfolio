@@ -3,48 +3,76 @@ import React from 'react'
 const Work = () => {
     const shortMovies = [
         {
-            'id': 1,
             'label': 'Short Movies',
             'videos': [
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/zdgTATu4YVY?si=hAbfinraTfC8B9XQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/pUaEQbURmE8?si=qIaAMln6YFF5Cj13" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/Khqik-3ICRM?si=pgc95TQeYROPF23x" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {
+                    'image': './videos/thenightway.jpg',
+                    'src': "https://www.youtube.com/embed/zdgTATu4YVY?si=hAbfinraTfC8B9XQ"
+                }, {
+                    'image': './videos/devrani.jpg',
+                    'src': "https://www.youtube.com/embed/pUaEQbURmE8?si=qIaAMln6YFF5Cj13"
+                },
+                {
+                    'image': './videos/saas.jpg',
+                    'src': "https://www.youtube.com/embed/Khqik-3ICRM?si=pgc95TQeYROPF23x"
+                }
             ]
         }
     ]
 
     const songs = [
         {
-            'id': 2,
             'label': 'Songs',
             'videos': [
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/Id3ZHDwyTc4?si=Tzn7YW-K97qN13lx" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/CgJDMBUfpvI?si=e-5vvLnqM26BsQ9r" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/wBAmmpwWobk?si=5nKEM2V6ne3twcOa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {
+                    'image': './videos/deadlife.jpg',
+                    'src': "https://www.youtube.com/watch?v=Id3ZHDwyTc4"
+                }, {
+                    'image': './videos/bholenath.jpg',
+                    'src': "https://www.youtube.com/watch?v=CgJDMBUfpvI"
+                },
+                {
+                    'image': './videos/jouji.jpg',
+                    'src': "https://www.youtube.com/watch?v=wBAmmpwWobk&t=2s"
+                }
             ]
         }
     ]
 
     const movieExplanation = [
         {
-            'id': 3,
             'label': 'Movie Explanation',
             'videos': [
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/HyWhJ0NNhTk?si=-usPD_8eKGebThVK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/BXUoPrTo4m4?si=JLgrBmx4mnPJJ6iD" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/hmSqTVOmDjM?si=LffNfgTQZWgKFzUs" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {
+                    'image': './videos/billion.jpg',
+                    'src': "https://www.youtube.com/watch?v=HyWhJ0NNhTk"
+                }, {
+                    'image': './videos/fat.jpg',
+                    'src': "https://www.youtube.com/watch?v=BXUoPrTo4m4"
+                },
+                {
+                    'image': './videos/oxygen.jpg',
+                    'src': "https://www.youtube.com/watch?v=hmSqTVOmDjM"
+                }
             ]
         }
     ]
 
     const lyricalVideos = [
         {
-            'id': 4,
             'label': 'Lyrical Videos',
             'videos': [
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/woVZ75f3i50?si=h9pGmaoHd0oKk07v" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' src="https://www.youtube.com/embed/ItDLt6pBfvU?si=xszOV4wr7oT8tS81" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>,
-                <iframe className='w-full h-[215px] md:h-[215px] my-2 rounded-md' width="560" height="315" src="https://www.youtube.com/embed/kBdLn2oUU5g?si=Z20HyunlLbREj6eK" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                {
+                    'image': './videos/mata.jpg',
+                    'src': "https://www.youtube.com/watch?v=woVZ75f3i50"
+                }, {
+                    'image': './videos/krishan.jpg',
+                    'src': "https://www.youtube.com/watch?v=ItDLt6pBfvU"
+                },
+                {
+                    'image': './videos/dil.jpg',
+                    'src': "https://www.youtube.com/watch?v=kBdLn2oUU5g"
+                }
             ]
         }
     ]
@@ -52,38 +80,55 @@ const Work = () => {
         <div className='py-8' id='work'>
             <h2 className="text-[#FFD14C] font-bold text-2xl text-center">My work</h2>
             <div className="">
-                {shortMovies.map((index) => (
-                    <div className='pb-6' key={index.label  }>
-                        <h3 className="font-medium text-xl pt-5">{index.label}</h3>
+                {shortMovies.map((movie) => (
+                    <div className='pb-6' key={movie.label}>
+                        <h3 className="font-medium text-xl pt-5">{movie.label}</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                            {index.videos}
+                            {movie.videos.map((video, index) => (
+                                <a key={index} href={video.src} rel="noopener noreferrer">
+                                    <img src={video.image} className='rounded-lg' alt={`Video thumbnail ${index + 1}`} />
+                                </a>
+                            ))}
                         </div>
                     </div>
                 ))}
 
-                {songs.map((index) => (
-                    <div className='pb-6' key={index.label  }>
-                        <h3 className="font-medium text-xl pt-5">{index.label}</h3>
+
+                {songs.map((song) => (
+                    <div className='pb-6' key={song.label}>
+                        <h3 className="font-medium text-xl pt-5">{song.label}</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                            {index.videos}
+                            {song.videos.map((video, index) => (
+                                <a key={index} href={video.src} rel="noopener noreferrer">
+                                    <img src={video.image} className='rounded-lg' alt={`Video thumbnail ${index + 1}`} />
+                                </a>
+                            ))}
                         </div>
                     </div>
                 ))}
 
-                {movieExplanation.map((index) => (
-                    <div className='pb-6' key={index.label  }>
-                        <h3 className="font-medium text-xl pt-5">{index.label}</h3>
+                {movieExplanation.map((movie) => (
+                    <div className='pb-6' key={movie.label}>
+                        <h3 className="font-medium text-xl pt-5">{movie.label}</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                            {index.videos}
+                            {movie.videos.map((video, index) => (
+                                <a key={index} href={video.src} rel="noopener noreferrer">
+                                    <img src={video.image} className='rounded-lg' alt={`Video thumbnail ${index + 1}`} />
+                                </a>
+                            ))}
                         </div>
                     </div>
                 ))}
-                
-                {lyricalVideos.map((index) => (
-                    <div className='pb-6' key={index.label  }>
-                        <h3 className="font-medium text-xl pt-5">{index.label}</h3>
+
+                {lyricalVideos.map((videos) => (
+                    <div className='pb-6' key={videos.label}>
+                        <h3 className="font-medium text-xl pt-5">{videos.label}</h3>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-                            {index.videos}
+                            {videos.videos.map((video, index) => (
+                                <a key={index} href={video.src} rel="noopener noreferrer">
+                                    <img src={video.image} className='rounded-lg' alt={`Video thumbnail ${index + 1}`} />
+                                </a>
+                            ))}
                         </div>
                     </div>
                 ))}
