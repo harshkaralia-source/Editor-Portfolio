@@ -5,7 +5,7 @@ import Work from './components/Work'
 import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { Routes, Route } from 'react-router-dom'
+import './App.css'
 
 const App = () => {
   return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -9,9 +8,9 @@ const Home = () => {
                 <h2 className='font-medium text-3xl pb-2 pt-1'>I am Aman Arya</h2>
                 <p className='text-slate-400 text-sm'>Professional video editor with 2+ years of experience and knowledge of latest video editing softwares, tools and techniques.</p>
                     <button className="px-4 py-3 text-slate-700 mt-4 bg-[#FFD14C] rounded-md text-sm w-full sm:w-fit md:text-xs">
-                <Link to="#contact" className=''>
+                <a href="#contact" className=''>
                         Contact me
-                </Link>
+                </a>
                     </button>
             </div>
             <div className="w-full flex items-center justify-center px-4 pt-8 md:pt-0">

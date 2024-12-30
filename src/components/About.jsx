@@ -44,7 +44,7 @@ const About = () => {
   return (
     <div className='py-8' id='about'>
       <h2 className="text-[#FFD14C] font-bold text-2xl text-center pb-4">About me</h2>
-      <p className='text-slate-200'>Professional video editor with 2+ years of experience with advanced video editing skills and knowledge of latest video editing softwares, tools and techniques. Saved the editing team 10+ hours each week. Seeking position to grow personally and professionally in video editing role.</p>
+      <p className='text-slate-200'>Professional video editor with 3+ years of experience with advanced video editing skills and knowledge of latest video editing softwares, tools and techniques. Saved the editing team 10+ hours each week. Seeking position to grow personally and professionally in video editing role.</p>
 
       <h3 className="text-slate-400 font-bold text-xl pt-8 text-center pb-4">Experience</h3>
       <div className="grid grid-cols-4 gap-6 text-left">
